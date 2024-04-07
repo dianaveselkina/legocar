@@ -9,6 +9,11 @@ body {
   font-style: normal;
   font-variation-settings: 'slnt' 0;
 }
+* {
+  padding: 0px;
+  margin: 0px;
+  border: none;
+}
 *,
 *::before,
 *::after {
@@ -120,6 +125,7 @@ h2 {
   font-weight: 500;
   font-size: 18px;
   line-height: 122%;
+  padding-bottom: 12px;
 }
 .card__text {
   font-weight: 400;
@@ -134,4 +140,24 @@ h2 {
   width: 142px;
   height: 45px;
   color: #ffffff;
+}
+.card2 {
+  position: relative;
+  border-radius: 12px;
+  width: 424px;
+  height: 250px;
+  background: linear-gradient(
+    87deg,
+    rgba(18, 18, 18, 1) 0%,
+    rgba(0, 0, 0, 0.6) 100%
+  );
+  padding: 32px 0 0 32px;
+}
+.card__img2 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.btn2 {
+  width: 180px;
 }
