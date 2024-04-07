@@ -9,6 +9,10 @@ body {
   font-style: normal;
   font-variation-settings: 'slnt' 0;
 }
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 button {
   padding: 0;
   cursor: pointer;
@@ -52,4 +56,37 @@ ul {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+.mode {
+  position: relative;
+}
+.mode ::before {
+  position: absolute;
+  left: -26px;
+  top: 16px;
+  content: url('/img/clock-icon.png');
+}
+.address__block {
+  margin-left: 28px;
+  display: flex;
+  flex-direction: row;
+  gap: 44px;
+}
+.address__text {
+  position: relative;
+}
+.address__text ::before {
+  position: absolute;
+  left: -26px;
+  top: 16px;
+  content: url('/img/map-icon.png');
+}
+.map__text {
+  position: relative;
+}
+.map__text ::before {
+  position: absolute;
+  left: -26px;
+  top: 16px;
+  content: url('/img/tg-icon.png');
 }
