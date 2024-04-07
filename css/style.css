@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+html,
+body {
+  margin: 0 auto;
+  font-family: 'Inter', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: 'slnt' 0;
+}
+.container {
+  max-width: 1920px;
+  padding: 0 312px;
+}
+.header__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.list__items {
+  display: flex;
+  flex-direction: row;
+}
+.address__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
