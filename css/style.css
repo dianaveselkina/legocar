@@ -121,7 +121,7 @@ ul {
   max-width: 1920px;
   margin-bottom: 12px;
 }
-.line1 {
+.line2 {
   box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.15);
   background: rgb(251, 251, 251);
   margin: 12px 0 56px;
@@ -239,6 +239,9 @@ h2 {
   bottom: 0;
   right: 13%;
 }
+.btn7 {
+  display: none;
+}
 .btn2 {
   width: 180px;
 }
@@ -275,6 +278,9 @@ h2 {
   );
   padding: 32px 12px 0 12px;
 }
+.btn5 {
+  display: none;
+}
 .card__title {
   padding: 0 0 106px 20px;
 }
@@ -303,13 +309,11 @@ h2 {
     flex-direction: column;
     position: fixed;
     height: 400px;
-    width: 400px;
+    width: 260px;
     top: 0;
-    bottom: 0;
-    left: 86px;
     z-index: 5;
     overflow-y: auto;
-    padding: 80px 40px;
+    padding: 80px 20px;
     background-color: #000;
     color: #ffffff;
   }
@@ -364,6 +368,13 @@ h2 {
     grid-column: 2/3;
     grid-row: 2/3;
   }
+  .btn4 {
+    display: none;
+  }
+  .btn5 {
+    width: 180px;
+    display: block;
+  }
   .card__img3 {
     display: none;
   }
@@ -417,6 +428,13 @@ h2 {
     max-width: 768px;
     padding: 0 44px;
   }
+  .address__block,
+  .mode {
+    display: none;
+  }
+  .line1 {
+    display: none;
+  }
   .hero__cards {
     display: flex;
     flex-direction: column;
@@ -424,5 +442,64 @@ h2 {
   .hero__card {
     width: 690px;
     height: 233px;
+  }
+  .card3 {
+    background: linear-gradient(
+      87deg,
+      rgba(18, 18, 18, 1) 0%,
+      rgba(0, 0, 0, 0.6) 100%
+    );
+  }
+}
+@media (width<599px) {
+  .container {
+    max-width: 375px;
+    padding: 0 20px 20px;
+  }
+  .header__order {
+    display: none;
+  }
+  .hero__card {
+    padding: 16px;
+    width: 335px;
+    height: 194px;
+  }
+  h1 {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    color: #3e3e3e;
+  }
+  .hero__title {
+    width: 335px;
+  }
+  .card__img1,
+  .card__img22,
+  .card__img6 {
+    width: 149px;
+    height: 68px;
+  }
+  .card__img4 {
+    width: 58px;
+    height: 68px;
+  }
+  .btn3 {
+    display: none;
+  }
+  .btn7 {
+    display: block;
+  }
+  .btn5 {
+    margin-top: 15px;
+    width: 148px;
+    height: 41px;
+  }
+  .card__title {
+    padding: 0;
+  }
+  .btn2 {
+    margin-top: 15px;
+    width: 148px;
+    height: 41px;
   }
 }
