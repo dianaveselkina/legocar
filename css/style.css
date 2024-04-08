@@ -181,3 +181,31 @@ h2 {
   bottom: 0;
   right: 2.1%;
 }
+.card4 {
+  position: relative;
+  border-radius: 12px;
+  width: 424px;
+  height: 512px;
+  background: linear-gradient(
+    87deg,
+    rgba(18, 18, 18, 1) 0%,
+    rgba(0, 0, 0, 0.6) 100%
+  );
+  padding: 32px 12px 0 12px;
+}
+.card__title {
+  padding: 0 0 106px 20px;
+}
+.card__img5 {
+  z-index: 2;
+  width: 413px;
+  height: 261px;
+  position: absolute;
+  bottom: 0;
+  right: 2.6%;
+}
+.card__img6 {
+  position: absolute;
+  bottom: 3;
+  right: 2.6%;
+}
