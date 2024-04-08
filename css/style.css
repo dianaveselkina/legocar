@@ -287,9 +287,7 @@ h2 {
   right: 2.6%;
 }
 .card__img6 {
-  position: absolute;
-  bottom: 3;
-  right: 2.6%;
+  display: none;
 }
 
 @media (width<1199px) {
@@ -387,6 +385,17 @@ h2 {
     width: 116px;
     height: 116px;
   }
+  .card__img5 {
+    display: none;
+  }
+  .card__img6 {
+    position: absolute;
+    bottom: 0;
+    right: 33px;
+    width: 217px;
+    height: 93px;
+    display: block;
+  }
   .address__block {
     font-weight: 400;
     font-size: 12px;
@@ -401,5 +410,19 @@ h2 {
   }
   .hero__title {
     width: 603px;
+  }
+}
+@media (width<899px) {
+  .container {
+    max-width: 768px;
+    padding: 0 44px;
+  }
+  .hero__cards {
+    display: flex;
+    flex-direction: column;
+  }
+  .hero__card {
+    width: 690px;
+    height: 233px;
   }
 }
